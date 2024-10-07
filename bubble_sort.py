@@ -22,3 +22,7 @@ while swapped == True:
     if arr[i] > arr[i + 1]:
       array[i-1], array[i] = array[i], array[i-1]
       swapped = True 
+
+example_list = [56, 88, 2, 15, 96, 37]
+bubbleSort(example_list)
+print("Sorted list: ", example_list)
